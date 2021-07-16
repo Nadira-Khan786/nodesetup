@@ -1,0 +1,4 @@
+{
+    "connectionString": "mongodb+srv://diamond:Nikh!lk2kb2@diamond.4dzxi.mongodb.net/indiancasino?retryWrites=true&w=majority",
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
+}
