@@ -1,0 +1,178 @@
+{
+  "openDate": 1642217340000,
+  "sportId": "cricket",
+  "competitionId": "11365612",
+  "competitionName": "Test Matches",
+  "eventId": "31102922",
+  "eventName": "Australia Vs England",
+  "marketId": "1.193214642",
+  "market": {
+    "matchOdds": [
+      {
+        "marketId": "1.193214642",
+        "marketName": "Match Odds",
+        "status": "SUSPENDED-MANUALLY",
+        "inplay": false,
+        "matchOddsRunners": [
+          {
+            "selectionId": "16606",
+            "runnerName": "Australia",
+            "status": "OPEN",
+            "layPrices": [
+              { "price": 1.16, "size": 463194.0 },
+              { "price": 1.17, "size": 288797.0 },
+              { "price": 1.18, "size": 66784.0 }
+            ],
+            "backPrices": [
+              { "price": 1.15, "size": 778628.0 },
+              { "price": 1.14, "size": 226766.0 },
+              { "price": 1.13, "size": 144335.0 }
+            ]
+          },
+          {
+            "selectionId": "10301",
+            "runnerName": "England",
+            "status": "OPEN",
+            "layPrices": [
+              { "price": 8.2, "size": 7220.0 },
+              { "price": 8.4, "size": 25453.0 },
+              { "price": 8.6, "size": 11478.0 }
+            ],
+            "backPrices": [
+              { "price": 8.0, "size": 4172.0 },
+              { "price": 7.8, "size": 8886.0 },
+              { "price": 7.6, "size": 37078.0 }
+            ]
+          },
+          {
+            "selectionId": "60443",
+            "runnerName": "The Draw",
+            "status": "OPEN",
+            "layPrices": [
+              { "price": 140.0, "size": 289.0 },
+              { "price": 150.0, "size": 1556.0 },
+              { "price": 160.0, "size": 176.0 }
+            ],
+            "backPrices": [
+              { "price": 120.0, "size": 492.0 },
+              { "price": 110.0, "size": 343.0 },
+              { "price": 100.0, "size": 664.0 }
+            ]
+          }
+        ]
+      }
+    ],
+    "bookmakers": [
+      {
+        "marketId": "4.1642042077-BM",
+        "marketName": "Bookmaker 0%Comm",
+        "status": "OPEN",
+        "bookmakerRunners": [
+          {
+            "selectionId": "4469",
+            "runnerName": "Australia",
+            "backPrice": "0",
+            "backSize": "100000",
+            "layPrice": "0",
+            "laySize": "100000"
+          },
+          {
+            "selectionId": "5883",
+            "runnerName": "England",
+            "backPrice": "0",
+            "backSize": "100000",
+            "layPrice": "0",
+            "laySize": "100000"
+          },
+          {
+            "selectionId": "8546",
+            "runnerName": "The Draw",
+            "backPrice": "0",
+            "backSize": "100000",
+            "layPrice": "0",
+            "laySize": "100000"
+          }
+        ]
+      }
+    ],
+    "fancyMarkets": [
+      {
+        "selectionId": "4.1091023550-F2",
+        "runnerName": "S Boland BOundaries 2",
+        "gameStatus": "BALL_RUNNING",
+        "backPrice": 0.0,
+        "backSize": 0.0,
+        "layPrice": 0.0,
+        "laySize": 0.0,
+        "status": "OPEN",
+        "marketType": "fancy2",
+        "result": -1
+      },
+      {
+        "selectionId": "4.1091023550-F2",
+        "runnerName": "S Boland BOundaries 2",
+        "gameStatus": "BALL_RUNNING",
+        "backPrice": 0.0,
+        "backSize": 0.0,
+        "layPrice": 0.0,
+        "laySize": 0.0,
+        "status": "OPEN",
+        "marketType": "fancy2",
+        "result": -1
+      },
+      {
+        "selectionId": "4.1036224029-F2",
+        "runnerName": "S Boland Runs 2",
+        "gameStatus": "BALL_RUNNING",
+        "backPrice": 0.0,
+        "backSize": 0.0,
+        "layPrice": 0.0,
+        "laySize": 0.0,
+        "status": "OPEN",
+        "marketType": "fancy2",
+        "result": -1
+      },
+      {
+        "selectionId": "4.892423455-F2",
+        "runnerName": "S Smith Runs 2",
+        "gameStatus": "BALL_RUNNING",
+        "backPrice": 0.0,
+        "backSize": 0.0,
+        "layPrice": 0.0,
+        "laySize": 0.0,
+        "status": "OPEN",
+        "marketType": "fancy2",
+        "result": -1
+      },
+      {
+        "selectionId": "4.389492892-F2",
+        "runnerName": "S Smith BOundaries 2",
+        "gameStatus": "BALL_RUNNING",
+        "backPrice": 0.0,
+        "backSize": 0.0,
+        "layPrice": 0.0,
+        "laySize": 0.0,
+        "status": "OPEN",
+        "marketType": "fancy2",
+        "result": -1
+      },
+      {
+        "selectionId": "4.1678144748-F2",
+        "runnerName": "Fall of 4th Wkt AUS 2",
+        "gameStatus": "BALL_RUNNING",
+        "backPrice": 0.0,
+        "backSize": 0.0,
+        "layPrice": 0.0,
+        "laySize": 0.0,
+        "status": "OPEN",
+        "marketType": "fancy2",
+        "result": -1
+      }
+    ],
+    "enableMatchOdds": true,
+    "enableBookmaker": true,
+    "enableFancy": true
+  },
+  "inPlay": true,
+  "providerName": "DREAM_API"
+}

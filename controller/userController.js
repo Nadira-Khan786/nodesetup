@@ -146,6 +146,7 @@ const deleteuserDetail = async (req, res) => {
 // get user list 
 
 const getAllUsers = async (req, res) => {
+
   try {
     let result = await userModel.find({
       $and: [
@@ -176,6 +177,19 @@ const getAllUsers = async (req, res) => {
   }
 };
 
+
+const getAllURL = async (req, res) => {
+
+  try {
+    let result = await fetch(url, {
+    });
+  } catch (error) {
+    return res.status(500).json({
+      message: error.message ? error.message : "Unexpected error occure.",
+      success: false,
+    });
+  }
+};
 
 module.exports = {
   createUser, getuser, updateuserDetail, deleteuserDetail, getAllUsers
